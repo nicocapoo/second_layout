@@ -1,0 +1,34 @@
+.listComponent li {
+    display: block;
+}
+
+.listComponent ol {
+    list-style: none;
+    counter-reset: listItem;
+    margin-top: 104px;
+    margin-bottom: 147px;
+}
+
+li:before{
+    color: #707070;
+    content: "0" counter(listItem);
+    counter-increment: listItem;
+    font-family: Merriweather, sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.contentWrapper {
+    margin-top: 8px;
+    border-top: 2px solid #707070;
+    padding-top: 16px;
+}
+
+.listComponent a{
+    color: red;
+}
+
+.listComponent p{
+    font-size: 22px;
+}
+

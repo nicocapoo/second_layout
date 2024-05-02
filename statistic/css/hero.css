@@ -1,0 +1,15 @@
+.hero {
+    background-color: #cefbff;
+    border: solid 1px #707070;
+    padding-top: 130px;
+    padding-bottom: 119px;
+}
+
+.hero2 {
+    background-color: #ECCEFF;
+    border: solid #707070;
+}
+
+.hero2 p{
+    font-size: 22px;
+}
